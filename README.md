@@ -140,8 +140,9 @@ Le serveur traite les données reçues et les enregistre dans une base SQLite.
                          BASE DE DONNEES
 
 Les métriques reçues sont stokées dans une base SQLite et peuvent etre consultées avec:
+      ```
       SELECT * FROM metrics;
-
+      ```
 
                        AUTEURS
 
