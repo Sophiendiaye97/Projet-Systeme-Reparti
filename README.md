@@ -119,8 +119,9 @@ Se déplacer dans le dossier:
                         EXECUTION
 
 Lancer le serveur:
+      ```
       python3 serveur.py
-
+      ```
 Puis dans plusieurs terminaux lancer les clients:
 
 Lancer les clients:
