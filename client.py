@@ -101,13 +101,7 @@ while True:
     
     
 
-        client.send(json.dumps(message).encode())
-
-        time.sleep(3)
-
-
-if __name__ == "__main__":
-    start_client("node2") 
+        
 
 
 
