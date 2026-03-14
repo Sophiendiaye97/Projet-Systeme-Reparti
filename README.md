@@ -147,7 +147,7 @@ SELECT * FROM metrics;
 
                        AUTEURS
 
-Projet réalisé dans le cadre du cours se Systèmes Répartis (Master 1 - UNCHK)
+Projet réalisé dans le cadre du cours de Systèmes Répartis (Master 1 - UNCHK)
  ```
 .Ndeye Ndakhete Seck
 .Khady Dite Sophie Ndiaye
