@@ -1,13 +1,19 @@
 import socket
 import json
 import time
-import random
+import psutil
+import platform
 
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 5000
 
 
-def collect_metrics():
+def check_ports():
+    ports =[22, 80, 443, 3306]
+    status = {}
+
+ for port in ports:
+        s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     return {
         "cpu": random.randint(0,100),
         "memory": random.randint(0,100),
