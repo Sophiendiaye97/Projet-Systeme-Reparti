@@ -20,7 +20,10 @@ Le serveur central:
 .enregistre les données dans une base SQLite
  ```
 Clients(Nodes)
+```
 Les clients:
+```
+
  ```
 .collectent les métriques système
 .envoient les données au serveur
