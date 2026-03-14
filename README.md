@@ -119,20 +119,18 @@ Se déplacer dans le dossier:
                         EXECUTION
 ```
 Lancer le serveur:
-```
-      ```
-      python3 serveur.py
-      ```
-```      
+
+python3 serveur.py
+
 Puis dans plusieurs terminaux lancer les clients:
 
 Lancer les clients:
-```
-      ```
-      python3 client.py
-      python3 client.py
-      python3 client.py
-      ```
+
+ python3 client.py
+ python3 client.py
+ python3 client.py
+ ```
+
 Pour simuler plusieurs clients, il suffit d'ouvrir plusieurs terminaux et d'exécuter client.py plusieurs fois.
 Chaque instance agit comme un noeud client différent connecté au serveur.
 
