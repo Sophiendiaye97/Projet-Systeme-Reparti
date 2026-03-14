@@ -11,8 +11,13 @@ Le serveur reçoit ces données, les affiche dans le terminal et les enregistre 
                  ARCHITECTURE DU PROJET
 
 Le système est composé de deux parties principales:
+```
 Serveur
+```
+```
 Le serveur central:
+```
+
  ```
 .écoute sur un port réseau
 .reçoit les données envoyées par les clients
